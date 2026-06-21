@@ -21,7 +21,10 @@ import {
   Users, 
   RefreshCw, 
   Database,
-  ArrowRight
+  ArrowRight,
+  Github,
+  Instagram,
+  Mail
 } from 'lucide-react';
 import { CLINICAL_SAMPLES, JARGON_DICTIONARY, type HealthDocument } from './services/clinicalSamples';
 import { GeminiService, type HealthIndicator, type PodcastTurn, getFallbackIndicators } from './services/GeminiService';
@@ -1050,6 +1053,20 @@ export default function App() {
               <h4 style={{ color: '#f8fafc', marginBottom: '8px' }}>4. Clinical Conversational AI 💬</h4>
               <p style={{ marginBottom: '16px' }}>Ask questions in the right panel (or the Chat tab on mobile). The AI is strictly <strong>agentic</strong> and grounded: it will <em>only</em> draw information from the active documents you have selected. It will cite its sources and refuse to answer if the information is not present in the documents, preventing dangerous medical hallucinations.</p>
               
+              <h4 style={{ color: '#f8fafc', marginBottom: '8px' }}>Help & Support 🤝</h4>
+              <p style={{ marginBottom: '16px' }}>Need help or want to report an issue? Feel free to reach out!</p>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px', fontSize: '0.9rem' }}>
+                <a href="mailto:info@softingy.com" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-cyan)', textDecoration: 'none' }}>
+                  <Mail size={16} /> info@softingy.com (or muizz7041@gmail.com)
+                </a>
+                <a href="https://instagram.com/abdulmuizzrajput" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-cyan)', textDecoration: 'none' }}>
+                  <Instagram size={16} /> @abdulmuizzrajput
+                </a>
+                <a href="https://github.com/abdulmuizzrajput" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-cyan)', textDecoration: 'none' }}>
+                  <Github size={16} /> abdulmuizzrajput
+                </a>
+              </div>
+
               <div style={{ marginTop: '20px', padding: '12px', background: 'rgba(6, 182, 212, 0.1)', borderRadius: '8px', border: '1px solid rgba(6, 182, 212, 0.2)' }}>
                 <p style={{ fontSize: '0.8rem', color: 'var(--accent-cyan)', margin: 0 }}><strong>Disclaimer:</strong> SoftingyPulse is an educational tool built for the GeeksforGeeks x Google Gemini hackathon. It is not a substitute for professional medical advice.</p>
               </div>

@@ -58,6 +58,14 @@ SoftingyPulse is an advanced clinical workspace powered by the **Google Gemini A
 *   **Markdown Parsing**: `react-markdown` & `remark-gfm`
 *   **Icons**: Lucide React
 
+## 🤝 Help & Support
+
+If you need any help, have questions, or want to collaborate, feel free to reach out:
+
+*   📧 **Email**: [info@softingy.com](mailto:info@softingy.com) or [muizz7041@gmail.com](mailto:muizz7041@gmail.com)
+*   📸 **Instagram**: [@abdulmuizzrajput](https://instagram.com/abdulmuizzrajput)
+*   🐙 **GitHub**: [abdulmuizzrajput](https://github.com/abdulmuizzrajput)
+
 ## ⚠️ Disclaimer
 
 SoftingyPulse is an educational tool built for a hackathon. **It is not a substitute for professional medical advice, diagnosis, or treatment.** Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
