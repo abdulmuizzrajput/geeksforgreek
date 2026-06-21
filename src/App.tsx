@@ -22,8 +22,6 @@ import {
   RefreshCw, 
   Database,
   ArrowRight,
-  Github,
-  Instagram,
   Mail
 } from 'lucide-react';
 import { CLINICAL_SAMPLES, JARGON_DICTIONARY, type HealthDocument } from './services/clinicalSamples';
@@ -1060,10 +1058,10 @@ export default function App() {
                   <Mail size={16} /> info@softingy.com (or muizz7041@gmail.com)
                 </a>
                 <a href="https://instagram.com/abdulmuizzrajput" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-cyan)', textDecoration: 'none' }}>
-                  <Instagram size={16} /> @abdulmuizzrajput
+                  <span style={{ fontSize: '16px' }}>📸</span> @abdulmuizzrajput
                 </a>
                 <a href="https://github.com/abdulmuizzrajput" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--accent-cyan)', textDecoration: 'none' }}>
-                  <Github size={16} /> abdulmuizzrajput
+                  <span style={{ fontSize: '16px' }}>🐙</span> abdulmuizzrajput
                 </a>
               </div>
 
